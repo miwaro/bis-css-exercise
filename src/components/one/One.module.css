@@ -1,0 +1,13 @@
+.title {
+	display: flex;
+	justify-content: center;
+	animation: titleColor 5s linear infinite;
+}
+
+@keyframes titleColor {
+	0%   {color:#000;}
+	25%  {color:#FFF;}
+	50%  {color:#000;}
+	75%  {color:#FFF;}
+	100% {color:#000;}
+  }

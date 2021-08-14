@@ -1,0 +1,26 @@
+
+.container {
+	animation: slideUpandDown 2.5s ease-out infinite;
+}
+
+.title {
+	display: flex;
+	justify-content: center;
+	animation: titleColor 3s ease-out infinite;
+}
+
+@keyframes slideUpandDown {
+	0% {  transform: translateY(0); }
+	25% { transform: translateY(300px); }
+	50% { transform: translateY(-300px); }
+	75% { transform: translateY(-300px); }
+	100% { transform: translateY(300); }
+  }
+  
+  @keyframes titleColor {
+	0%   {color:#000;}
+	25%  {color:#FFF;}
+	50%  {color:#000;}
+	75%  {color:#FFF;}
+	100% {color:#000;}
+  }
